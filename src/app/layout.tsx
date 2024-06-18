@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={nunitoSans.variable}>
         <Header />
-        <div className="w-full max-w-4xl px-4 font-sans md:mx-auto">
+        <div className="w-full max-w-4xl px-4 font-sans md:mx-auto md:px-0">
           {children}
         </div>
       </body>
